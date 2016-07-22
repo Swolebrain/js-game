@@ -16,7 +16,7 @@ $(document).keyup(function(e){
   if (e.keyCode == 39) player.velX = 0;
   if (e.keyCode == 40) player.velY = 0;
 });
-$(document).on('touchstart', function(e){
+$(document).on('touchmove', function(e){
   //where the touch happens:
   // e.touches[0].clientX, e.touches[0].clientY
   var touchX = e.touches[0].clientX;
