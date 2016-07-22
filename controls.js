@@ -26,7 +26,7 @@ $(document).on('touchmove', function(e){
   if (touchY < player.y) player.velY = -5;
   if (touchY > player.y) player.velY = 5;
 });
-$document.on('touchend', function(e){
+$(document).on('touchend', function(e){
   player.velX = 0;
   player.velY = 0;
 })
